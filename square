@@ -1,0 +1,13 @@
+public class Square extends Shape{
+  private double L;
+  private double w;
+  
+  public Square (double l, double w) {
+    L = l;
+    w = w;
+  }
+  
+  public double area() {
+    return L * w;
+  }
+}
