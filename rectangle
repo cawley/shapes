@@ -1,0 +1,13 @@
+public class Rectangle extends Shape {
+  public double L;
+  public double w;
+  
+  public Rectangle(double l, double w) {
+    L = l;
+    w = w;
+  }
+  
+  public double area() {
+    return L * w;
+  }
+}
