@@ -1,0 +1,13 @@
+public class Triangle extends Shape {
+  private double b_t;
+  private double h_t;
+  
+  public Triangle (double b, double h) {
+    b_t = b;
+    h_t = h;
+  }
+  
+  public double area() {
+    return 0.5 * b_t * h_t;
+  }
+}
