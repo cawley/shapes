@@ -1,0 +1,13 @@
+public class Circle extends Shape {                       
+    private static final double PI = Math.PI;   // constant
+    private double d;    
+    
+    public Circle(double d) {
+      d = d;
+    }
+    
+    public double area () {
+        double r = d / 2.0;
+        return PI * r * r;
+    }
+}
